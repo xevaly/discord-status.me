@@ -19,11 +19,11 @@ Small documentation of my Discord-Rich-Presence API.
 # How to setup:
 1. Join [discord.gg/ebio](https://discord.com/invite/ebio)
 1. Copy your userID.
-1. Visit `https://discord-status.me/raw/:userID`
+1. Visit `https://api.discord-status.me/raw/:userID`
 - > Replace `:userID` with your discord userID
 
 # Examples
-1. [discord-status.me/raw/:userID](https://discord-status.me/raw/910213408576659517)
+1. [api.discord-status.me/raw/:userID](https://api.discord-status.me/raw/910213408576659517)
 > Below is the scheme of the raw response.
 ##### Keys marked with * in their name are unpromised values. They might not appear in your request.
 
@@ -71,7 +71,7 @@ Small documentation of my Discord-Rich-Presence API.
       "assets*": {
         "large_image": "https://i.scdn.co/image/ab67616d0000b273f44798b00503b6c57b88406c",
         "large_text*": "HYSTERIA",
-        "small_image": "https://discord-status.me/static/images/unknown.png"
+        "small_image": "https://api.discord-status.me/assets/images/unknown.png"
       },
       "created_at*": 1658170937294,
       "details*": "HYSTERIA",
@@ -79,7 +79,7 @@ Small documentation of my Discord-Rich-Presence API.
       "id": "spotify:1",
       "images": {
         "large_image": "https://i.scdn.co/image/ab67616d0000b273f44798b00503b6c57b88406c",
-        "small_image": "https://discord-status.me/static/images/unknown.png"
+        "small_image": "https://api.discord-status.me/assets/images/unknown.png"
       },
       "name": "Spotify",
       "party*": {
