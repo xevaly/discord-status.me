@@ -17,7 +17,7 @@ Small documentation of my Discord-Rich-Presence API.
 - [Status_Image Icons](#status_image-icons)
 - [Future Features](#future-features)
 # How to setup:
-1. Join [discord.gg/bio](https://discord.com/invite/bio)
+1. Join [discord.gg/ebio](https://discord.com/invite/ebio)
 1. Copy your userID.
 1. Visit `https://discord-status.me/raw/:userID`
 - > Replace `:userID` with your discord userID
@@ -180,11 +180,11 @@ Small documentation of my Discord-Rich-Presence API.
 
 | ID | Status Text | Status Image |
 |----|-------------|-------|
-| 0 | Offline | ![Offline](https://discord-status.me/static/images/offline.png) |
-| 1 | Online | ![Online](https://discord-status.me/static/images/online.png) | 
-| 2 | Idle | ![IDLE](https://discord-status.me/static/images/idle.png) | 
-| 3 | Do Not Disturb | ![DND](https://discord-status.me/static/images/dnd.png) |
+| 0 | Offline | ![Offline](https://api.discord-status.me/assets/images/offline.png) |
+| 1 | Online | ![Online](https://api.discord-status.me/assets/images/online.png) | 
+| 2 | Idle | ![IDLE](https://api.discord-status.me/assets/images/idle.png) | 
+| 3 | Do Not Disturb | ![DND](https://api.discord-status.me/assets/images/dnd.png) |
 
 ## Future Features
 - [ ] Add Public Flag Names
-- [ ] Usercards to display in Github README's (Using SVGs)
+- [x] Usercards to display in Github README's (Using SVGs)
